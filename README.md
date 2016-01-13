@@ -3,7 +3,9 @@ Takeaway Challenge
 
 About
 -----
-This is my solution to the second of the weekend challenges we were set on the Makers Academy course. The project aims to fulfill the following user stories:
+This is my solution to the second of the weekend challenges we were set on the Makers Academy course.
+
+The project aims to fulfill the following user stories:
 ```
 As a customer
 So that I can check if I want to order something
@@ -34,10 +36,8 @@ To run this project, perform the following steps:
   TWILIO_SID    <- Your Twilio SID
   TWILIO_TOKEN  <- Your Twilio token
   ```
-0. Run ```git clone git@github.com:thisdotrob/takeaway-challenge.git```.
-0. Move to the root directory of the project.
-0. Install the bundler gem: ```gem install bundler```.
-0. Run ```bundle``` to install the required gems.
+0. Clone this repo.
+0. Run ```bundle``` to install the required gems (assuming you already have Bundler installed).
 0. Open your REPL of choice e.g. ```irb```
 0. Initialize a new Takeaway object: ```ta = Takeaway.new```
 0. View the menu: ```puts ta.list_dishes```:
@@ -64,6 +64,6 @@ The menu is loaded from the ```menu.txt``` file. Each dish should be on a new li
 name,price
 ```
 
-Author
-------
-Rob Stevenson (this.rob@outlook.com)
+Running tests
+-------------
+run ```rspec```
